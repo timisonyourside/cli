@@ -103,6 +103,19 @@ The output lists the usage instructions, the current version, and the supported 
   ```
   {: codeblock}
 
+  If you are not sure what organizations you are a part of, use the following command to find out:
+  ```
+  ibmcloud account orgs
+  ```
+  {: codeblock}
+
+  If you are not sure what spaces you can use in the org you identified above, use the following command to find out:
+  ```
+  ibmcloud account spaces -o <value>
+  ```
+  {: codeblock}
+
+
 ## Next steps
 {: #next-steps}
 
